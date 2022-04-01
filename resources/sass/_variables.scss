@@ -1,0 +1,21 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+
+$primary: #1D2939;
+$danger: #ff4136;
+$white: #ffffff;
+$light-gray: #F2F4F7;
+$dark-gray: #475467;
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger,
+  'white': $white,
+  'gray': $light-gray,
+);

@@ -1,0 +1,65 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Variables
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    height: 84px!important;
+    box-shadow: 0px 4px 70px rgba(30, 40, 52, 0.08);
+}
+
+
+// title section
+
+.title-section{
+    // height: 466px;
+    margin-top: 5.5rem;
+
+    .title-items{
+        gap: 14px;
+        padding: 70px;
+        h1{
+            font-weight: 700;
+            font-size: 50px;
+            margin-top: 20px;
+            letter-spacing: -0.03em;
+            text-align: center;
+
+            /* Hot Graient */
+
+            background: linear-gradient(97.1deg, #C41740 4.8%, #EA9C28 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+        }
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: $dark-gray;
+
+        }
+
+    }
+}
+
+
+.blog-listing{
+    padding-top: 40px;
+}
