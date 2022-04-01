@@ -45,7 +45,7 @@
             <div>
                 <button type="button" class="btn btn-gray">👋 Meet Personally</button>
             </div>
-            <h1>Minimal blog template for creative expressions</h1>
+            <h1>Minimal blog template for creative expressions (done in prod)</h1>
             <p>100% customisable and SEO-friendly blog template for personal and commercial purposes.</p>
         </div>
       </section>
